@@ -2,10 +2,10 @@ import React from "react";
 
 export const Introduction = () => {
   return (
-    <div className="h-[556px] w-screen max-sm:w-[100vw] px-[80px] py-[96px] max-sm:h-[904px] max-sm:px-4 max-sm:py-16">
+    <div className="h-[556px] w-screen max-sm:w-[100vw] px-[80px] py-[96px] max-sm:h-[1004px] max-sm:px-4 max-sm:py-16">
       <div className="flex gap-[48px] justify-between max-sm:flex-col-reverse max-sm:flex max-sm:flex-col">
-        <div className=" flex gap-[48px] flex-col">
-          <div className="h-[176px] w-[600px] max-sm:w-[100vw]">
+        <div className=" flex gap-[48px] max-sm:gap-[48px] flex-col">
+          <div className="h-[176px] w-[600px] max-sm:w-[100vw] max-sm:h-[250px]">
             <div className="text-[60px] font-bold">Hi, I’m Tergel 👋</div>
             <div className="text-words">
               I specialize in full stack development, particularly with React.js
@@ -40,7 +40,7 @@ export const Introduction = () => {
           </div>
         </div>
 
-        <div className=" flex h-[364px] w-[568px] max-sm:w-[50vw] items-end justify-end max-sm:flex max-sm:justify-center max-sm:items-center">
+        <div className=" flex h-[364px] w-[568px] max-sm:w-[50vw] items-end justify-end max-sm:flex max-sm:justify-center max-sm:items-center max-sm:ml-[100px]">
           <img
             src="picture.jpg"
             alt=""

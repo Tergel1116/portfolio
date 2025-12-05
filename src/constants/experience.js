@@ -1,0 +1,32 @@
+export const experience = [
+  {
+    height: "288px",
+    width: "896px",
+    image: "/logo-upwork.png",
+    position: "Sr. Frontend Developer",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    text1: "Ut pretium arcu et massa semper, id fringilla leo semper.",
+    text2: "Sed quis justo ac magna.",
+    text3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "Aug 2029 - Oct 2031",
+  },
+  {
+    height: "264px",
+    width: "896px",
+    image: "/logo-upwork.png",
+    position: "Team Lead",
+    text: "Sed quis justo ac magna.",
+    text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    text2: "Sed quis justo ac magna.",
+    text3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "Jul 2027 - Nov 2028",
+  },
+  {
+    image: "/logo-upwork.png",
+    position: "Full Stack Developer",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    date: "Dec 2026 - May 2027",
+    height: "180px",
+    width: "896px",
+  },
+];

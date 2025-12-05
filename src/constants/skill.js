@@ -1,0 +1,98 @@
+export const skills = [
+  {
+    image: "/icon-javscript.svg",
+    label: "Javascript",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-typescript.svg",
+    label: "Typescript",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-react.svg",
+    label: "React",
+    width: "69.82px",
+    height: "64px",
+  },
+  {
+    image: "/Mask group.png",
+    label: "Next.js",
+    width: "56.32px",
+    height: "64px",
+  },
+  {
+    image: "/icon-nodejs.svg",
+    label: "Node.js",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-express.svg",
+    label: "Express.js",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-nest.svg",
+    label: "Nest.js",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-socket.svg",
+    label: "Socket.io",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-postgresql.svg",
+    label: "PostgreSQL",
+    width: "62.05px",
+    height: "64px",
+  },
+  {
+    image: "/icon-mongodb.svg",
+    label: "MongoDB",
+    width: "29.77px",
+    height: "64px",
+  },
+  {
+    image: "/icon-sass.svg",
+    label: "Sass/Scss",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-tailwindcss.svg",
+    label: "Tailwindcss",
+    width: "104.73px",
+    height: "64px",
+  },
+  {
+    image: "/icon-figma.svg",
+    label: "Figma",
+    width: "42.67px",
+    height: "64px",
+  },
+  {
+    image: "/icon-cypress.svg",
+    label: "Cypress",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-storybook.svg",
+    label: "Storybook",
+    width: "64px",
+    height: "64px",
+  },
+  {
+    image: "/icon-git.svg",
+    label: "Git",
+    width: "64px",
+    height: "64px",
+  },
+];

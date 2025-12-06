@@ -2,8 +2,8 @@ import React from "react";
 
 export const Introduction = () => {
   return (
-    <div className="h-[556px] w-screen max-sm:w-[100vw] px-[80px] py-[96px] max-sm:h-[1004px] max-sm:px-4 max-sm:py-16">
-      <div className="flex gap-[48px] justify-between max-sm:flex-col-reverse max-sm:flex max-sm:flex-col">
+    <div className="h-[556px] w-screen  max-sm:w-[100vw] px-[80px] py-[96px] max-sm:h-[1104px] max-sm:px-4 max-sm:py-16">
+      <div className="flex gap-[48px]  justify-between max-sm:flex-col-reverse max-sm:flex max-sm:flex-col">
         <div className=" flex gap-[48px] max-sm:gap-[48px] flex-col">
           <div className="h-[176px] w-[600px] max-sm:w-[100vw] max-sm:h-[250px]">
             <div className="text-[60px] font-bold">Hi, I’m Tergel 👋</div>
@@ -15,27 +15,29 @@ export const Introduction = () => {
               continue to find joy in crafting innovative solutions and designs.
             </div>
           </div>
-          <div className="flex gap-[8px] text-words">
-            <p>
-              <img src="location.png" alt="" />
-            </p>
-            Ulaanbaatar, Mongolia
-          </div>
-          <div className="flex gap-[8px] text-words">
-            <p>
-              <img src="available.png" alt="" />
-            </p>
-            Available for new projects
-          </div>
-          <div className="flex items-center gap-[16px] ">
-            <div>
-              <img src="github-icon.png" alt="" />
+          <div className="flex flex-col gap-[48px] max-sm:mt-[90px]">
+            <div className="flex gap-[8px] text-words">
+              <p>
+                <img src="location.png" alt="" />
+              </p>
+              Ulaanbaatar, Mongolia
             </div>
-            <div>
-              <img src="twitter.png" alt="" />
+            <div className="flex gap-[8px] text-words">
+              <p>
+                <img src="available.png" alt="" />
+              </p>
+              Available for new projects
             </div>
-            <div>
-              <img src="figma.png" alt="" />
+            <div className="flex items-center gap-[16px] ">
+              <div>
+                <img src="github-icon.png" alt="" />
+              </div>
+              <div>
+                <img src="twitter.png" alt="" />
+              </div>
+              <div>
+                <img src="figma.png" alt="" />
+              </div>
             </div>
           </div>
         </div>

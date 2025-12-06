@@ -27,7 +27,7 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center gap-2">
+        <div className="flex flex-col items-center max-sm:text-center justify-center gap-2">
           <div>You may also find me on these platforms!</div>
           <div className="flex items-center gap-1">
             <img src="/github-icon.png" alt="" />

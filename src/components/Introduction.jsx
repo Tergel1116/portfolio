@@ -5,7 +5,7 @@ export const Introduction = () => {
     <div className="h-[556px] w-screen  max-sm:w-[100vw] px-[80px] py-[96px] max-sm:h-[1104px] max-sm:px-4 max-sm:py-16">
       <div className="flex gap-[48px]  justify-between max-sm:flex-col-reverse max-sm:flex max-sm:flex-col">
         <div className=" flex gap-[48px] max-sm:gap-[48px] flex-col">
-          <div className="h-[176px] w-[600px] max-sm:w-[100vw] max-sm:h-[250px]">
+          <div className="h-[176px] w-[600px] max-sm:w-[90vw] max-sm:h-[250px]">
             <div className="text-[60px] font-bold">Hi, I’m Tergel 👋</div>
             <div className="text-words">
               I specialize in full stack development, particularly with React.js

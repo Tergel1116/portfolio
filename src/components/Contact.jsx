@@ -3,27 +3,43 @@ import React from "react";
 export const Contact = () => {
   return (
     <div className="h-[560px]  py-[96px] px-[80px] ">
-      <div className="h-[368px]  flex flex-col items-center justify-center gap-[48px] ">
+      <div className="h-[368px]  flex flex-col  items-center justify-center gap-[48px] ">
         <div className="flex flex-col justify-center items-center gap-4">
           <div className="text-[14px] text-words bg-gray-200  h-[28px] w-[122px]  flex items-center justify-center rounded-[12px]">
             Get in touch
           </div>
-          <div className="text-words text-5 w-[450px] max-sm:w-[100vw] text-center">
+          <div className="text-words text-5 w-[450px] max-sm:w-[80vw] text-center">
             What’s next? Feel free to reach out to me if you're looking for a
             developer, have a query, or simply want to connect.
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center ">
           <div className="flex items-center gap-[20px] ">
-            <img src="/letter.png" alt="" className="h-[32px] w-[32px]" />
-            <p className="text-[36px]">tergel@pinecone.mn</p>
-            <img src="/copy.png" alt="" className="h-[32px] w-[32px]" />
+            <img
+              src="/letter.png"
+              alt=""
+              className="h-[32px] w-[32px] max-sm:h-[24px] max-sm:w-[24px]"
+            />
+            <p className="text-[36px] max-sm:text-[24px]">tergel@pinecone.mn</p>
+            <img
+              src="/copy.png"
+              alt=""
+              className="h-[32px] w-[32px] max-sm:h-[24px] max-sm:w-[24px]"
+            />
           </div>
           <div>
             <div className="flex items-center gap-[20px] ">
-              <img src="/call.png" alt="" className="h-[32px] w-[32px]" />
-              <p className="text-[36px]">+976 99118811</p>
-              <img src="/copy.png" alt="" className="h-[32px] w-[32px]" />
+              <img
+                src="/call.png"
+                alt=""
+                className="h-[32px] w-[32px max-sm:h-[24px] max-sm:w-[24px]]"
+              />
+              <p className="text-[36px] max-sm:text-[24px]">+976 99118811</p>
+              <img
+                src="/copy.png"
+                alt=""
+                className="h-[32px] w-[32px] max-sm:h-[24px] max-sm:w-[24px]"
+              />
             </div>
           </div>
         </div>

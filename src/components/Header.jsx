@@ -8,8 +8,8 @@ const rubik = Rubik_Mono_One({
 
 export const Header = () => {
   return (
-    <div className="flex h-[68px] w-screen justify-between pt-[16px] pb-[16px] pr-[80px] pl-[80px] max-sm:flex max-sm:justify-between max-sm:p-4  max-sm:w-[100vw] ">
-      <div className="flex items-center max-sm:flex max-sm:justify-between w-full max-sm:w-[100vw]">
+    <div className="flex h-[68px] w-screen justify-between pt-[16px] pb-[16px] pr-[80px] pl-[80px] max-sm:flex max-sm:justify-between max-sm:p-[0px] max-sm:w-[100vw] ">
+      <div className="flex items-center max-sm:flex max-sm:pl-[15px] max-sm:justify-between w-full max-sm:w-[100vw]">
         <p className={rubik.className}>TERGEL</p>
         <div className="max-sm:block hidden">
           <img src="/menu.png" alt="" />

@@ -92,11 +92,11 @@ export const Work = () => {
                   className="h-[100%] w-[100%]  max-sm:p-[20px] max-sm:rounded-bl-[12px] max-sm:rounded-br-[12px]  max-sm:h-[650px]"
                 >
                   {stack.map(({ header, lorem, sources, button }) => (
-                    <div className="p-[28px]  max-sm:p-0 flex flex-col max-sm:flex-col gap-[24px] max-sm:gap-[50px]">
+                    <div className="p-[28px]  max-sm:p-0 flex flex-col max-sm:flex-col gap-[24px] max-sm:gap-[10px]">
                       <div className="text-gray-900 mt-[0px] font-bold text-[20px]">
                         {header}
                       </div>
-                      <div className="text-words h-[96px] w-[100%]">
+                      <div className="text-words h-[96px] w-[100%] max-sm:mb-[30px]">
                         {lorem}
                       </div>
                       <div className="flex gap-2 flex-wrap">
